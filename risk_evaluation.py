@@ -1,5 +1,6 @@
 from functions import get_data
 
+
 def evaluate():
     data = []
     for i in range(100):
@@ -14,11 +15,9 @@ def evaluate():
             data.append(False)
     return data
 
+
 data = evaluate()
 
 amount_true = data.count(True)
 amount_false = data.count(False)
 amount_tie = data.count("Tie")
-
-
-
